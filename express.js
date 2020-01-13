@@ -12,5 +12,5 @@ app.listen(port, function() {
 });
  
 app.get('/', (req, res) => {
-    setTimeout(renderPage, 0, res);
+    setTimeout(renderPage, 3000, res);
 });
