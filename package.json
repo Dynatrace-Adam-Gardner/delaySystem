@@ -1,0 +1,6 @@
+{
+  "name": "quotation-webserver",
+  "dependencies": {
+    "express": ">4.17.0"
+  }
+}
