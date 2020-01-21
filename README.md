@@ -7,3 +7,9 @@ Demo System for response time delays.
 
 See branch `v1`, `v2` & `v3` for code.
 `index.html` is just visual. Delay is coded into `express.js`
+
+## Build & Push Example
+```
+docker build -t adamgardnerdt/delaydemosystem:v1
+docker push
+```
